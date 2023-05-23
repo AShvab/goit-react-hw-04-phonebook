@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 
 
-function ContactList({ contacts, removeContact }) {
+const ContactList = ({ contacts, removeContact }) =>{
     return ( 
 
         <ul>        

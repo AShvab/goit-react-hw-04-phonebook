@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Button, Item } from './ContactListItem.styled';
 
-function ContactListItem({name, number, id, removeContact}) {
+const ContactListItem = ({name, number, id, removeContact}) => {
   return (
     <Item>      
       <p>{name}: {number}</p>

@@ -4,7 +4,7 @@ import { Input, LabelForm} from 'components/Form/Form.styled';
 import { Filter } from './SearchContact.styled';
 
 
-function SearchContact({ searchContact }) {
+const SearchContact = ({ searchContact }) => {
   return (
     <Filter>
       <LabelForm htmlFor="filter">Find contacts by name:</LabelForm>
